@@ -60,15 +60,12 @@
 console.log(sumZero([-3, -2, -1, 0, 1, 2, 3]));
 
 function sumZero(arr) {
-  let sumZeroArr = [];
   // find the first pair of intergers that equal 0 when added (for loop)
   for (let i = 0; i < arr.length; i++) {
-    for (let j = i; j < arr.length; j++) {
-      if (math.abs(arr[i]) === math.abs(arr[j])) {
-        sumZeroArr.push(arr[i], arr[j]);
+    for (let j = i + 1; j < arr.length; j++) {
+      if (arr[i] + arr[j] === 0) {
+        return [arr[i], arr[j]];
       }
     }
   }
-  // return sumZeroArr
-  return sumZeroArr;
 }
