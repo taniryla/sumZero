@@ -50,17 +50,17 @@
 
 // IV. 	Step Four (Check). Examine the solution obtained and refactor.
 // 17.  Can you check your result?
-yes it works
-// 18.  Can you check the argument?
-yes
-// 19.  Can you derive the result differently?
-yes using multiple pointer strategy
-// 20.  Can you see it at a glance?
-// 21.  Can you make the code DRYer and refactor?
-// 22.  Can you improve the performance?
-yes convert from O(N^2) to O(N)
-// 23.   How have other people solved this problem?
-yes
+// yes it works
+// // 18.  Can you check the argument?
+// yes
+// // 19.  Can you derive the result differently?
+// yes using multiple pointer strategy
+// // 20.  Can you see it at a glance?
+// // 21.  Can you make the code DRYer and refactor?
+// // 22.  Can you improve the performance?
+// yes convert from O(N^2) to O(N)
+// // 23.   How have other people solved this problem?
+// yes
 
 console.log(sumZero([-3, -2, -1, 0, 1, 2, 3]));
 
